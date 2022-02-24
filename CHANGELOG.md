@@ -2,13 +2,10 @@
 
 Notable changes to this project are documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Please break change notes into Breaking changes, New features, Bugfixes and Other improvements.
 
-## [Unreleased]
+## [v5.0.2](https://github.com/JordanMartinez/purescript-halogen-svg-elems/releases/tag/v5.0.2) - 2022-02-21
 
-Breaking Changes:
-
-New Features:
-
-Other Improvements:
+Bugfixes:
+- Fix `Halogen.Svg.Attributes.Path.c` whitespace issue (#31 by @paulino26)
 
 ## [v5.0.0](https://github.com/JordanMartinez/purescript-halogen-svg-elems/releases/tag/v5.0.0) - 2021-09-18
 
