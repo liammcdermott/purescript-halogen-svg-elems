@@ -2,6 +2,11 @@
 
 Notable changes to this project are documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). This file is updated via [purs-changelog](https://github.com/JordanMartinez/purescript-up-changelog)
 
+## [v5.0.3](https://github.com/JordanMartinez/purescript-halogen-svg-elems/releases/tag/v5.0.3) - 2022-02-24
+
+Bugfixes:
+- Fix `points` type signature that prevents `polyline` and `polygon` from compiling (#33 by @JordanMartinez)
+
 ## [v5.0.2](https://github.com/JordanMartinez/purescript-halogen-svg-elems/releases/tag/v5.0.2) - 2022-02-21
 
 Bugfixes:
