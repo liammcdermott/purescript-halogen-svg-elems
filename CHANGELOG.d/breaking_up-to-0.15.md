@@ -1,1 +1,0 @@
-* Update project and deps to PureScript 0.15
