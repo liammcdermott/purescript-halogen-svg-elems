@@ -295,7 +295,7 @@ type AnimationAttributes r = GlobalAttributes
   , to :: String
   , begin :: String
   , dur :: String
-  , repeatCount :: Int
+  , repeatCount :: String
   , fill :: String
   | r
   )

@@ -259,8 +259,8 @@ refX = attr (H.AttrName "refX") <<< show
 refY :: forall r i. Number -> IProp (refY :: Number | r) i
 refY = attr (H.AttrName "refY") <<< show
 
-repeatCount :: forall r i. Int -> IProp (repeatCount :: Int | r) i
-repeatCount = attr (H.AttrName "repeatCount") <<< show
+repeatCount :: forall r i. String -> IProp (repeatCount :: String | r) i
+repeatCount = attr (H.AttrName "repeatCount")
 
 rx :: forall r i. Number -> IProp (rx :: Number | r) i
 rx = attr (H.AttrName "rx") <<< show
